@@ -6,6 +6,7 @@ project (PaciTagger)
 
 add_subdirectory(${CMAKE_SOURCE_DIR}/PaciDeps)
 add_subdirectory(${CMAKE_SOURCE_DIR}/Tagger)
+add_subdirectory(${CMAKE_SOURCE_DIR}/PaciStringKit)
 
 
 #list(APPEND QML_DIRS "${QML_IMPORT_PATH}")
